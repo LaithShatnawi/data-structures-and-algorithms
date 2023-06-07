@@ -1,5 +1,14 @@
 # Data Structures and Algorithms
 
+## Code challanges table of contents
+
+| challanges      | Link                                                 |
+| --------------- | ---------------------------------------------------- |
+| Class 01        | [class01](./code-challenges/class01/class01.md)      |
+| Class 02        | [class02](./code-challenges/class02/class02.md)      |
+
+
+
 ## Language: `JavaScript`
 
 ### Folder and Challenge Setup
