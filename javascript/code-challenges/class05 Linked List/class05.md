@@ -3,7 +3,7 @@ Code Challenge: Class 05: Linked list implementation
 
 ## Whiteboard Process
 
-![Image]()
+![Image]() 
 
 ## Approach & Efficiency
 
