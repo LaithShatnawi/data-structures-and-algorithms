@@ -6,6 +6,7 @@
 | --------------- | ---------------------------------------------------- |
 | Class 01        | [class01](./code-challenges/class01/class01.md)      |
 | Class 02        | [class02](./code-challenges/class02/class02.md)      |
+| Array.forEach() | [forEach](./code-challenges/challenges-01.test.js)   |
 
 
 
