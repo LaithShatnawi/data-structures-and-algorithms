@@ -11,7 +11,7 @@
 | Array.map()     | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()  | [filter](./code-challenges/challenges-03.test.js)               |
 | Array sort()    | [sort](./code-challenges/challenges-04.test.js)                 |
-| Array reduce()  | [sort](./code-challenges/challenges-05.test.js)                 |
+| Array reduce()  | [reduce](./code-challenges/challenges-05.test.js)                 |
 
 ## Language: `JavaScript`
 
