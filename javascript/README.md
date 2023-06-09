@@ -9,6 +9,7 @@
 | Class 05        | [class05](./code-challenges/class05%20Linked%20List/class05.md) |
 | Array.forEach() | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()     | [Map](./code-challenges/challenges-02.test.js)                  |
+| Array filter()  | [filter](./code-challenges/challenges-03.test.js)               |
 
 
 
