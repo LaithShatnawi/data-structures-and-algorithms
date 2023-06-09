@@ -13,6 +13,7 @@
 | Array sort()        | [sort](./code-challenges/challenges-04.test.js)                 |
 | Array reduce()      | [reduce](./code-challenges/challenges-05.test.js)               |
 | Value vs Reference  | [valueVSreference](./code-challenges/challenges-06.test.js)     |
+| Array Methods       | [ArrayMethods](./code-challenges/challenges-06.test.js)         |
 
 ## Language: `JavaScript`
 
