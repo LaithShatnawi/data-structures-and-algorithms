@@ -10,8 +10,7 @@
 | Array.forEach() | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()     | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()  | [filter](./code-challenges/challenges-03.test.js)               |
-
-
+| Array sort()    | [sort](./code-challenges/challenges-04.test.js)                 |
 
 ## Language: `JavaScript`
 
@@ -24,8 +23,10 @@ Each type of code challenge has slightly different instructions. Please refer to
 - Create a new folder under the `javascript` level, with the name of the data structure and complete your implementation there
   - i.e. `linked-list`
 - Implementation (the data structure "class")
+
   - The implementation of the data structure must be named `index.js`
   - Your implementation must be completed as a proper ES6 Class, and exported as a node module
+
     - Class Name must be `ProperCase`
     - Class Methods must be `camelCase`
 
@@ -38,7 +39,6 @@ Each type of code challenge has slightly different instructions. Please refer to
       methodName() {
         // code
       }
-
     }
     module.exports = LinkedList;
     ```
@@ -85,7 +85,7 @@ Code challenges should be completed within a folder named `code-challenges` unde
 
 ## Running Tests
 
-If you setup your folders according to the above guidelines, running tests becomes a matter of deciding which tests you want to execute.  Jest does a good job at finding the test files that match what you specify in the test command
+If you setup your folders according to the above guidelines, running tests becomes a matter of deciding which tests you want to execute. Jest does a good job at finding the test files that match what you specify in the test command
 
 From the `data-structures-and-algorithms/javascript` folder, execute the following commands:
 
@@ -95,4 +95,4 @@ From the `data-structures-and-algorithms/javascript` folder, execute the followi
 
 #### Live Tests
 
-Note that when you check your code into GitHub, all of your tests will automatically execute. These results should match your own, and will be found on the  **Actions** tab
+Note that when you check your code into GitHub, all of your tests will automatically execute. These results should match your own, and will be found on the **Actions** tab
