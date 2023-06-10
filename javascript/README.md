@@ -15,6 +15,7 @@
 | Value vs Reference  | [valueVSreference](./code-challenges/challenges-06.test.js)     |
 | Array Methods       | [ArrayMethods](./code-challenges/challenges-06.test.js)         |
 | Regular Expressions1| [RegEx1](./code-challenges/challenges-08.test.js)               |
+| Object Iteration    | [Object](./code-challenges/challenges-08.test.js)               |
 
 ## Language: `JavaScript`
 
