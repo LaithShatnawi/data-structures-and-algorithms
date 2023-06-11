@@ -13,10 +13,11 @@
 | Array sort()        | [sort](./code-challenges/challenges-04.test.js)                 |
 | Array reduce()      | [reduce](./code-challenges/challenges-05.test.js)               |
 | Value vs Reference  | [valueVSreference](./code-challenges/challenges-06.test.js)     |
-| Array Methods       | [ArrayMethods](./code-challenges/challenges-06.test.js)         |
+| Array Methods       | [ArrayMethods](./code-challenges/challenges-07.test.js)         |
 | Regular Expressions1| [RegEx1](./code-challenges/challenges-08.test.js)               |
-| Object Iteration    | [Object](./code-challenges/challenges-08.test.js)               |
-| 2D Arrays           | [2DArrays](./code-challenges/challenges-08.test.js)             |
+| Object Iteration    | [Object](./code-challenges/challenges-09.test.js)               |
+| 2D Arrays           | [2DArrays](./code-challenges/challenges-10.test.js)             |
+| Method Chaining     | [MethodChaining](./code-challenges/challenges-11.test.js)       |
 
 ## Language: `JavaScript`
 
