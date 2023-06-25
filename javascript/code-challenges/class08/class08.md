@@ -4,13 +4,14 @@ Code Challenge: Class 07
 
 ## Whiteboard Process
 
-![Image](./class07.png)
+![Image](./class08.PNG)
 
 ## Approach & Efficiency
 
 
 
 ## Solution
+
 'use strict';
 
 class Node {
@@ -41,24 +42,30 @@ class Linkedlist {
         this.size++;
         return this;
     }
-    kthFromEnd(index) {
-        if(!this.head) {
-          return;
-        }
-        if(this.size == 1) {
-          return this.head.value;
-        }
+    zipperList(list1,list2) {
+      let tail = list1.head
+      let current1 = list1.head.next;
+      let current2 = list2.head;
+      let counter = 0;
       
-        let currentNode = this.head;
-        let counter = 0;
-      while(currentNode && index >= 0) {
-        if (counter == this.size - 1 - index){
-          return currentNode.value;
+      while(current1 && current2) {
+        if(counter % 2 == 0) {
+          tail.next = current2;
+          current2 = current2.next;
+        } else {
+          tail.next = current1;
+          current1 = current1.next;
         }
+        tail = tail.next;
         counter++;
-        currentNode = currentNode.next;
       }
-      return "outside of list size";
+      if(current1) {
+        tail.next = current1;
+      }
+      if(current2){
+        tail.next = current2;
+      }
+      return list1.head;
     }
     toString(){
     let currentNode = this.head;
@@ -71,6 +78,11 @@ class Linkedlist {
     }
 }
 const ll = new Linkedlist();
+const ll2 = new Linkedlist();
+
+ll2.append('a');
+ll2.append('b');
+ll2.append('c');
 
 ll.append(1);
 ll.append(2);
@@ -78,7 +90,7 @@ ll.append(3);
 ll.append(4);
 ll.append(5);
 
-console.log(ll.kthFromEnd(0))
 
-console.log(ll.size)
+console.log(ll2.zipperList(ll,ll2))
+
 console.log(ll.toString())
