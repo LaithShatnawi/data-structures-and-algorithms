@@ -11,6 +11,7 @@
 | Class 06            | [class06](./code-challenges/class06/class06.md)                 |
 | Class 07            | [class07](./code-challenges/class07/class07.md)                 |
 | Class 08            | [class08](./code-challenges/class08/class08.md)                 |
+| Class 10            | [class10](./code-challenges/stack-and-queue/class10.md)         |
 | Array.forEach()     | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()         | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()      | [filter](./code-challenges/challenges-03.test.js)               |
