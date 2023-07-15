@@ -15,6 +15,7 @@
 | Class 11            | [class11](./code-challenges/class11/class11.md)                 |
 | Class 12            | [class12](./code-challenges/class12/class12.md)                 |
 | Class 13            | [class13](./code-challenges/class13/class13.md)                 |
+| Class 15            | [class15](./code-challenges/tree/tree.md)                       |
 | Array.forEach()     | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()         | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()      | [filter](./code-challenges/challenges-03.test.js)               |
