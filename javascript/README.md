@@ -21,6 +21,7 @@
 | Class 18            | [class18](./code-challenges/class18/class18.md)                 |
 | Class 26            | [class26](./code-challenges/class26/class26.md)                 |
 | Class 27            | [class27](./code-challenges/class27/class27.md)                 |
+| Class 28            | [class28](./code-challenges/class28/class28.md)                 |
 | Array.forEach()     | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()         | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()      | [filter](./code-challenges/challenges-03.test.js)               |
