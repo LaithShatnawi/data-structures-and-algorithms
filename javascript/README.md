@@ -24,6 +24,8 @@
 | Class 28            | [class28](./code-challenges/class28/class28.md)                 |
 | Class 30            | [class30](./code-challenges/hashMap/hashMap.md)                 |
 | Class 31            | [class31](./code-challenges/class31/class31.js)                 |
+| Class 32            | [class32](./treeIntersection/tree-intersection.js)              |
+| Class 33            | [class33](./code-challenges/class33/class33.js)                 |
 | Array.forEach()     | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()         | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()      | [filter](./code-challenges/challenges-03.test.js)               |
