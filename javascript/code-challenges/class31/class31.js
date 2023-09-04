@@ -94,7 +94,17 @@ class Hashmap {
 }
 
 function repeatedWord(str) {
-    const arr = str.split(" ");
+    const arr = str.toLowerCase().split(/\W+/);
     const myHashMap = new Hashmap(arr.length);
+    for (const word of arr) {
+        if (word) {
+            if (myHashMap.has(word)) {
+                return word;
+            }
+            myHashMap.set(word, true);
+        }
+    }
+    return "None";
 }
 
+console.log(repeatedWord('It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York...'))
