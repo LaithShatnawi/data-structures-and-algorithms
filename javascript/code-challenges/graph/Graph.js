@@ -35,7 +35,13 @@ class Graph {
         return this.adjacencyList.keys();
     }
     getNeighbors(vertex) {
-
+        if (!this.adjacencyList.has(vertex)) {
+            return [];
+        }
+        else {
+            const adjacencies = this.adjacencyList.get(vertex);
+            console.log(adjacencies)
+        }
     }
     getSize() {
         return this.adjacencyList.size
@@ -77,14 +83,15 @@ myGraph.addDirectedEdge(five, four);
 
 
 
-myGraph.addDirectedEdge(shihab, one);
+// myGraph.addDirectedEdge(shihab, one);
 
 
 // console.log("after", myGraph);
 
-// for (const [k, v] of myGraph.adjacencyList.entries()) {
-//     console.log('k=> ', k, 'v=> ', v);
-// }
+for (const [k, v] of myGraph.adjacencyList.entries()) {
+    console.log('k=> ', k, 'v=> ', v);
+}
 
-console.log(myGraph.getVertices());
-console.log(myGraph.getSize());
+// console.log(myGraph.getVertices())
+// console.log(myGraph.getSize())
+console.log(myGraph.getNeighbors(zero))
