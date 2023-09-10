@@ -79,7 +79,7 @@ class Graph {
         }
     }
     BreadthFirst(vertex) {
-        const nodes = new Map();
+        const nodes = [];
         const breadth = new Queue();
         const visited = new Set();
 
@@ -87,11 +87,18 @@ class Graph {
         visited.add(vertex);
 
         while (!breadth.isEmpty()) {
-            const front = breadth.dequeue();
-            nodes.addVertex(front);
-            front.forEach(element => {
+            let front = breadth.dequeue();
+            nodes.push(front);
 
-            });
+            const adjacencies = this.adjacencyList.get(front);
+
+            for (let edge of adjacencies) {
+                let child = edge.vertex;
+                if (!visited.has(child)) {
+                    visited.add(child);
+                    breadth.enqueue(child);
+                }
+            }
         }
         return nodes;
     }
@@ -117,7 +124,7 @@ myGraph.addVertex(three);
 myGraph.addVertex(four);
 myGraph.addVertex(five);
 
-console.log(myGraph);
+// console.log(myGraph);
 
 
 myGraph.addDirectedEdge(zero, five);
@@ -132,11 +139,13 @@ myGraph.addDirectedEdge(five, four);
 
 
 
-myGraph.addDirectedEdge(shihab, one);
+// myGraph.addDirectedEdge(shihab, one);
 
 
-console.log("after", myGraph);
+// console.log("after", myGraph);
 
-for (const [k, v] of myGraph.adjacencyList.entries()) {
-    console.log('k=> ', k, 'v=> ', v);
-}
+// for (const [k, v] of myGraph.adjacencyList.entries()) {
+//     console.log('k=> ', k, 'v=> ', v);
+// }
+
+console.log(myGraph.BreadthFirst(zero))
