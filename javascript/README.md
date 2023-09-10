@@ -27,6 +27,7 @@
 | Class 32            | [class32](./treeIntersection/tree-intersection.js)              |
 | Class 33            | [class33](./code-challenges/class33/class33.js)                 |
 | Class 35            | [class35](./code-challenges/graph/Graph.js)                     |
+| Class 36            | [class36](./code-challenges/class36/GraphDeapth.js)             |
 | Array.forEach()     | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()         | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()      | [filter](./code-challenges/challenges-03.test.js)               |
