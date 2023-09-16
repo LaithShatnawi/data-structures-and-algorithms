@@ -28,6 +28,8 @@
 | Class 33            | [class33](./code-challenges/class33/class33.js)                 |
 | Class 35            | [class35](./code-challenges/graph/Graph.js)                     |
 | Class 36            | [class36](./code-challenges/class36/GraphDeapth.js)             |
+| Class 37            | [class37](./code-challenges/class37/class37.js)                 |
+| Class 38            | [class38](./code-challenges/class38/class38.js)                 |
 | Array.forEach()     | [forEach](./code-challenges/challenges-01.test.js)              |
 | Array.map()         | [Map](./code-challenges/challenges-02.test.js)                  |
 | Array filter()      | [filter](./code-challenges/challenges-03.test.js)               |
